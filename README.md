@@ -14,6 +14,17 @@ Repository: <https://github.com/AzukiSensei/aniskip-stremio>
 - Uses a compact button positioned on the right and centered vertically.
 - Keeps debug logging disabled by default.
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/AzukiSensei/aniskip-stremio/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+<details open>
+<summary>📦 Stremio&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<br>
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [Stremio AniSkip](#stremio-aniskip) | Adds intro, outro and recap skip controls for anime playback in Stremio.<br><br>AniSkip v1.1.1<br>Repository: https://github.com/AzukiSensei/aniskip-stremio | • Activer le mode debug |
+
+</details>
+
 <!-- PATCHES_END -->
 ## Configuration
 
