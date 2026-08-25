@@ -1,37 +1,37 @@
 # AZK Stremio AniSkip
 
-Patch Morphe pour Stremio Android qui ajoute des boutons `Skip OP`, `Skip ED` et `Skip recap` pendant les segments détectés par AniSkip.
+Morphe patch for Stremio Android that adds `Skip OP`, `Skip ED`, and `Skip recap` buttons while AniSkip segments are playing.
 
-Version du mod : **1.1.0**
+Mod version: **1.1.1**
 
-Dépôt : <https://github.com/AzukiSensei/aniskip-stremio>
+Repository: <https://github.com/AzukiSensei/aniskip-stremio>
 
-## Fonctionnalités
+## Features
 
-- récupération du titre, de la saison et de l’épisode depuis les métadonnées et l’URL du média ;
-- recherche de l’identifiant AniList puis des segments AniSkip ;
-- affichage du bouton uniquement pendant le segment OP, ED ou recap concerné ;
-- bouton compact placé à droite et centré verticalement ;
-- mode debug désactivé par défaut.
+- Detects the anime title, season, and episode from media metadata and stream URLs.
+- Resolves the AniList identifier and retrieves the matching AniSkip segments.
+- Shows a skip button only while an opening, ending, or recap segment is active.
+- Uses a compact button positioned on the right and centered vertically.
+- Keeps debug logging disabled by default.
 
 ## Configuration
 
-Après avoir ajouté la source dans Morphe et sélectionné le patch **Stremio AniSkip**, l’option **Activer le mode debug** est disponible dans les paramètres du patch. Elle ouvre une fenêtre de diagnostic contenant les données média, les requêtes et les réponses AniList/AniSkip.
+After adding this repository as a Morphe patch source and selecting **Stremio AniSkip**, enable the debug option in the patch settings when diagnostics are needed. The debug window displays detected media data, API requests, and API responses.
 
-Ajouter la source Morphe :
-
-<https://morphe.software/add-source?github=AzukiSensei/aniskip-stremio>
-
-## Compilation locale
+## Build locally
 
 ```bash
 ./gradlew buildAndroid
 ```
 
-Le fichier `.mpp` est généré dans `patches/build/libs/`.
+The Android patch bundle is generated under `patches/build/libs/`.
 
-Une copie de la version 1.1.0 est également disponible dans [`releases/stremio-aniskip-morphe-1.1.0.mpp`](releases/stremio-aniskip-morphe-1.1.0.mpp).
+The repository also contains the latest bundle under [`releases/stremio-aniskip-morphe-1.1.1.mpp`](releases/stremio-aniskip-morphe-1.1.1.mpp).
 
-## Licence
+## Morphe source metadata
 
-GPLv3 — voir [LICENSE](LICENSE).
+The release workflow generates `patches-list.json` and `patches-bundle.json` when a semantic release is published. Morphe requires a published bundle release to display the repository name, version, and patch list correctly.
+
+## License
+
+GPLv3 — see [LICENSE](LICENSE).

@@ -5,7 +5,7 @@ import app.morphe.patcher.patch.booleanOption
 import app.morphe.patcher.patch.bytecodePatch
 
 private const val EXTENSION_CLASS = "Lapp/azk/stremio/aniskip/AniSkipBridge;"
-private const val MOD_VERSION = "1.1.0"
+private const val MOD_VERSION = "1.1.1"
 private const val REPOSITORY_URL = "https://github.com/AzukiSensei/aniskip-stremio"
 
 /** Adds the AniSkip overlay bridge whenever Stremio attaches a Media3 player. */
