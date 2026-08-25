@@ -13,7 +13,8 @@ Repository: <https://github.com/AzukiSensei/aniskip-stremio>
 - Shows a skip button only while an opening, ending, or recap segment is active.
 - Uses a compact button positioned on the right and centered vertically.
 - Keeps debug logging disabled by default.
-
+<!-- PATCHES_START EXPANDED -->
+<!-- PATCHES_END -->
 ## Configuration
 
 After adding this repository as a Morphe patch source and selecting **Stremio AniSkip**, enable the debug option in the patch settings when diagnostics are needed. The debug window displays detected media data, API requests, and API responses.
